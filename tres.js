@@ -27,9 +27,9 @@ function mostrar() {
 	let contadorInvierno = 0;
 
 	do {
-		sexo = prompt("ingrese sexo (f o m)");
+		sexo = prompt("Ingrese sexo (f o m)");
 		while (!(sexo == "f" || sexo == "m")) {
-			sexo = prompt("Error.Ingrese sexo");
+			sexo = prompt("Error. Ingrese sexo");
 		}
 		lugar = prompt('ingrese lugar:“bariloche”, “cataratas” o “salta”)');
 		while (!(lugar == "bariloche" || lugar == "cataratas" || lugar == "salta")) {
